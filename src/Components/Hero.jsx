@@ -1,6 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT } from "../constants/index.js"; // Make sure you have HERO_CONTENT in your constants
-import profilePic from "../assets/kevinRushProfile.png"; // Profile picture path
+import profilePic from "../assets/NWijayasekara.jpg"; // Profile picture path
 import { motion } from "framer-motion"; // Corrected import for framer-motion
 
 // Animation container function with dynamic delay
@@ -53,7 +53,7 @@ const Hero = () => {
             <div className='w-full lg:w-1/2 lg:p-8'>
                 <div className='flex justify-center'>
                     {/* Profile Image Animation */}
-                    <motion.img 
+                    <motion.img  className='rounded'
                         src={profilePic} 
                         alt="Profile Picture"
                         initial={{ opacity: 0 }}    // Start with opacity 0
