@@ -1,11 +1,12 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/Apexcare.jpg";
+import project2 from "../assets/projects/Netflix-clone.jpg";
+import project3 from "../assets/projects/Portfolio.png";
+import project4 from "../assets/projects/NeonBrush.png";
+import project5 from "../assets/projects/PizzaProject.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer and UI/UX designer with a strong foundation in creating web applications. I have experience with front-end technologies like React and back-end tools like Node.js, MySQL, and MongoDB. My goal is to contribute to building seamless and user-friendly digital experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an undergraduate student pursuing a B.Sc. (Hons) in Computer Science at the University of Kelaniya, Sri Lanka. With a strong passion for both front-end and back-end development, as well as UI/UX design, I strive to create seamless and user-friendly web applications. I have a solid foundation in technologies such as React, Node.js, MySQL, and MongoDB, and I am continuously exploring new tools and frameworks to expand my skill set. Additionally, I have a keen interest in data analysis and have learned statistics using R and Excel. I am eager to apply my knowledge in real-world projects and always seek opportunities to learn and grow. Outside of coding, I enjoy staying active and keeping up with the latest trends in technology and design.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +41,44 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Hospital Management System: ApexCare",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a comprehensive hospital management system that streamlines patient care and administrative tasks, enhancing operational efficiency and patient satisfaction. Key features include doctor channeling, prescription management, emergency care services, outpatient department handling, online pharmacy integration, and payment processing.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
-    title: "Task Management App",
+    title: "Media Streaming Platform",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Created a fully functional Netflix clone that replicates the core features of the popular streaming service, providing users with an engaging entertainment experience. This project includes user authentication, content browsing, and media playback functionalities. ",
+    technologies: ["HTML", "CSS", "JavaScript", "SpringBoot","Java"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML",  "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "Digital Art Gallery: Neon Brush (Group Project) ",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Established an online platform for artists to showcase and sell their artwork, facilitating greater access to art and supporting creative professionals. The system includes features for artist profiles, artwork listings, and secure transactions. ",
+    technologies: ["React",  "Tailwind", "MongoDB", "Sprin Boot"],
+  },
+  {
+    title: "Pizza Delivery System ",
+    image: project5,
+    description:
+      "Designed a pizza delivery application that optimizes order processing and delivery logistics, improving customer satisfaction through timely service. This project focuses on user-friendly interfaces for order placement and real-time tracking of deliveries. ",
+    technologies: [".Net", "C#",  "mySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Gampaha , Sri Lanka ",
+  phoneNo: "+94 724 174 599",
+  email: "neluni09@gmail.com",
 };
