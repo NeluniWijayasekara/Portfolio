@@ -47,6 +47,14 @@ const Hero = () => {
                         {HERO_CONTENT}
                     </motion.p>
                 </div>
+                {/* Download CV Button */}
+        <a
+          href="/src/assets/Neluni Wijayasekara - Resume.pdf"
+          download="Your_Name_CV.pdf"
+          className="inline-block px-6 py-3 bg-green-950 text-white font-semibold rounded-lg hover:bg-black transition duration-300"
+        >
+          Download CV
+        </a>
             </div>
 
             {/* Right section: Image */}
