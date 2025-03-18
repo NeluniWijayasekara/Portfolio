@@ -22,14 +22,9 @@ const Technologies = () => {
         <div className='rounded-2xl border-4 border-neutral-800 p-4'>
           <SiMongodb className="text-6xl text-green-500"/>
         </div>
-        
         <div className='rounded-2xl border-4 border-neutral-800 p-4'>
           <FaNodeJs className="text-6xl text-green-500"/>
         </div>
-        {/* <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <BiLogoPostgresql className="text-7xl text-sky-700"/>
-        </div> */}
-        {/* New technologies */}
         <div className='rounded-2xl border-4 border-neutral-800 p-4'>
           <FaJava className="text-6xl text-orange-500"/> {/* Using FaJava */}
         </div>
